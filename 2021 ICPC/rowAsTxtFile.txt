@@ -1,0 +1,35 @@
+Sub SaveWorksheet()
+Dim MyWorkbook As Workbook
+Dim MyDataWorksheet As Worksheet
+
+Set MyWorkbook = Workbooks(ActiveWorkbook.Name)
+Set MyDataWorksheet = MyWorkbook.Sheets("Sheet1")
+
+Dim OutputFile As String
+Dim CellValue As String
+Dim CurrentRow As Long
+Dim CurrentCol As Long
+Dim CurrentCharacter As Long
+Dim LastRow As Long
+Dim MyString As String
+
+LastRow = MyDataWorksheet.Cells(Rows.Count, "a").End(xlUp).Row
+
+For CurrentRow = 2 To LastRow
+'C:\Users\lengkgan\Desktop\Testing\sample.txt
+OutputFile = "C:\mallet\sample-data\md\chabada_por_10\all_three\" & CurrentRow & ".txt"
+
+Open OutputFile For Output As #1
+
+    CellValue = MyDataWorksheet.Cells(CurrentRow, 1).Value & ", " & MyDataWorksheet.Cells(CurrentRow, 2).Value & ", " & MyDataWorksheet.Cells(CurrentRow, 3).Value & ", " & MyDataWorksheet.Cells(CurrentRow, 4).Value & "."
+    
+    'Write #1, CellValue
+    Print #1, CellValue
+
+Close #1
+
+Next CurrentRow
+
+MsgBox "Done"
+
+End Sub
