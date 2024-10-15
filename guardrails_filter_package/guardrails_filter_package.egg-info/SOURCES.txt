@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+guardrails_filter_package.egg-info/PKG-INFO
+guardrails_filter_package.egg-info/SOURCES.txt
+guardrails_filter_package.egg-info/dependency_links.txt
+guardrails_filter_package.egg-info/entry_points.txt
+guardrails_filter_package.egg-info/requires.txt
+guardrails_filter_package.egg-info/top_level.txt
+my_filter_package/__init__.py
+my_filter_package/filter.py
+my_filter_package/text_filter.py
+tests/test_text_filter.py

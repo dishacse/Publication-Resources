@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: guardrails_filter_package
+Version: 1.0
+Summary: A Python package for text filtering using regex and OpenAI.
+Author: Md Shamsujjoha
+Author-email: firstname.lastname@data61.csiro.au
+License-File: LICENSE
+Requires-Dist: openai
+Requires-Dist: requests
