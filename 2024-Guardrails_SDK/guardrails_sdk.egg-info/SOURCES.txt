@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+guardrails_sdk/__init__.py
+guardrails_sdk/filter.py
+guardrails_sdk/other_modules.py
+guardrails_sdk.egg-info/PKG-INFO
+guardrails_sdk.egg-info/SOURCES.txt
+guardrails_sdk.egg-info/dependency_links.txt
+guardrails_sdk.egg-info/entry_points.txt
+guardrails_sdk.egg-info/not-zip-safe
+guardrails_sdk.egg-info/requires.txt
+guardrails_sdk.egg-info/top_level.txt
+tests/test_filter.py
