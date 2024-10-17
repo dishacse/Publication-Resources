@@ -1,5 +1,0 @@
-#to install you must have admin permission and then run following command 
-#pip install -r requirements.txt
-
-openai
-requests

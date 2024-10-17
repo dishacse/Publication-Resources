@@ -1,2 +1,0 @@
-[console_scripts]
-filter-text = my_filter_package.filter:main
