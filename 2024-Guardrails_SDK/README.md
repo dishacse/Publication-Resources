@@ -23,11 +23,6 @@ filtered_content = filter.filter_content(input_text=my_content, filter_personal_
 print(filtered_content)
 
 ```
-
-
-
-
-
 # Guardrails Filter Package
 
 `guardrails_filter_package` is a Python-based tool that provides text filtering functionalities using both regular expressions (regex) and OpenAI's GPT-4 API. The tool allows users to define filtering rules for various types of content and customize filtering through the OpenAI API.
@@ -45,19 +40,7 @@ print(filtered_content)
 - [OpenAI API Key](https://beta.openai.com/signup/)
 - Python 3.6 or higher (only if you want to run the source code, not necessary for the executable)
 
-### Running the Executable
-
-1. Download the `filter-text.exe` file.
-2. Open a terminal (Command Prompt) and navigate to the folder where `filter-text.exe` is located.
-3. Run the command:
-
-    ```bash
-    filter-text
-    ```
-
-4. Follow the prompts to enter your OpenAI API key, the text to filter, and your filtering preferences.
-
-## Example
+### Running Example
 
 ```bash
 Enter your OpenAI API key: 
@@ -82,10 +65,10 @@ Enter custom OpenAI filters (comma-separated): remove hate speech, misinformatio
 
 Example Output:
 Original Input:
-today is sunday, how are you, trump said it is good to have war, chicken eat grass and my medicare no is 123321456, email is xys at yahoo.com
+today is sunday, how are you, md donot said it is good to have war, chicken eat grass and my medicare no is 123321456, email is xys at yahoo.com
 
 Filtered Output (Regex):
-today is sunday, how are you, trump said it is good to have war, chicken eat grass and my medicare no is [Filtered: personal_information], email is xys at yahoo.com
+today is sunday, how are you, md donot said it is good to have war, chicken eat grass and my medicare no is [Filtered: personal_information], email is xys at yahoo.com
 
 Filtered Output (OpenAI):
 "today is sunday, how are you, [Filtered: misinformation], chicken [Filtered: misinformation] and my medicare no is [Filtered: personal_information], email is xys at yahoo.com"
