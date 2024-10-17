@@ -1,2 +1,0 @@
-[console_scripts]
-filter-text = guardrails_sdk.filter:main

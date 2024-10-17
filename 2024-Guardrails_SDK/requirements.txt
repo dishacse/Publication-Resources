@@ -1,4 +1,0 @@
-openai
-requests
-regex
-pytest  # For testing
