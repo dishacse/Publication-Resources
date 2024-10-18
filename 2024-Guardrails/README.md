@@ -16,7 +16,6 @@ The Guardrails SDK is a Python-based tool that provides powerful text filtering 
 ### Installing the SDK
 To install the Guardrails SDK, clone the repository and run the following command to install it locally:
 ```
-bash
 git clone https://github.com/yourusername/guardrails_sdk.git
 cd guardrails_sdk
 pip install .
@@ -52,7 +51,6 @@ print(filtered_content)
 You can use the `filter-text` command directly from the terminal once intalled. This will prompt you for your OpenAI API key, input text, and filtering options:
 
 ```
-bash
 filter-text
 ```
 
