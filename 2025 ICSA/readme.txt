@@ -1,0 +1,1 @@
+This directory contains all the supplementary materials for our paper titled 'Swiss Cheese Model for AI Safety: A Taxonomy and Reference Architecture for Multi-Layered Guardrails of Foundation Model-Based Agents.'
